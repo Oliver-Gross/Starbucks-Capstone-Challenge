@@ -2,7 +2,7 @@
 
 ## Should I send my discount offers to every customer?
 
-In the eyes of a marketing department the answer will most likely be yes to pull in more customers.
+In the eyes of a marketing department the answer will most likely be yes to pull in more customers. <br>
 However if you want to send offers only to customers who wouldn't buy anything without it and not 
 to those who buy anyway, then here is an approach to predict whether a customer should get an offer, or not.
 
