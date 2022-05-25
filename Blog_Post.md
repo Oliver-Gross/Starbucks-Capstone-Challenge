@@ -43,9 +43,42 @@ The dataset 'portfolio.json' contains the
 
 ### Cleaning and Rearranging the datasets
 
-To work with the datasets  we have to
-2175 rows with no data
+#### transcript.json
 
+The raw dataset is shown in the following image:<br>
+<br>
+![grafik](https://user-images.githubusercontent.com/96918132/170275047-d5368a67-da99-40d5-abbf-8fd2ea656cc2.png)
+
+As a first step I am encoding the used id's of the users and the offers.<br>
+Next I am creating a binary matrix out of the column 'event' and combine the rows with the same offer id and user id.
+The dataset will look like this then: <br>
+<br>
+![grafik](https://user-images.githubusercontent.com/96918132/170278168-e6ef1c43-df62-44e3-b0d3-689631b2525f.png)
+
+At this point I will distinguish between relevant and inrelevant user.
+A inrelevant user is someone who either doesn't complete an offer or completes it without seeing the offer first. 
+In the end the dataset is conctruceted like this:<br>
+
+![grafik](https://user-images.githubusercontent.com/96918132/170278035-e0b25600-070b-4c74-8b9c-f7a9bdfb85d5.png)
+
+#### profile.json
+
+The raw dataset is shown in the following image:<br>
+<br>
+![grafik](https://user-images.githubusercontent.com/96918132/170282117-5988abfa-261c-4b8b-b497-5144f55c9e94.png)
+
+It is noticable that some rows contain no valid data (gender = 'None', age = 118, income = NaN).
+So I am dropping them and also encode the user id.
+The histogram will look like this:<br>
+![grafik](https://user-images.githubusercontent.com/96918132/170283127-a440a755-081e-4488-9d99-c7e3c55cb878.png)
+
+<br>
+For the upcoming prediction I have to change all the columns into numeric values. 
+I changed 'female' into '1', 'male' into '2' and 'other' into '3'.
+The column 'Became_Member_On' with the datetime-format has been changed into 'Member_for_x_years' with a float-format.
+The dataset will then be combined with the transcript dataset and look like this:<br>
+
+![grafik](https://user-images.githubusercontent.com/96918132/170284379-f36ae1a2-a24c-4ac4-9f0d-6f9d31207301.png)
 
 
 
