@@ -41,6 +41,10 @@ You'll be given transactional data showing user purchases made on the app includ
 
 The dataset 'portfolio.json' contains the 
 
+### Cleaning and Rearranging the datasets
+
+To work with the datasets  we have to
+2175 rows with no data
 
 
 
