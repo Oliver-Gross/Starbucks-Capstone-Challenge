@@ -38,3 +38,11 @@ You'll be given transactional data showing user purchases made on the app includ
     person (str) - customer id
     time (int) - time in hours since start of test. The data begins at time t=0
     value - (dict of strings) - either an offer id or transaction amount depending on the record
+
+The dataset 'portfolio.json' contains the 
+
+
+
+
+
+
