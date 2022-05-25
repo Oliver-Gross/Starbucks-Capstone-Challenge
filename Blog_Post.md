@@ -1,4 +1,4 @@
-<img src=https://media.gettyimages.com/vectors/supporters-and-opponents-the-two-groups-held-placards-against-each-vector-id1312727567?s=2048x2048 width="600" height="400"/>
+<img src=https://media.gettyimages.com/vectors/supporters-and-opponents-the-two-groups-held-placards-against-each-vector-id1312727567? width="600" height="400"/>
 
 ## Should I send my discount offers to every customer?
 
