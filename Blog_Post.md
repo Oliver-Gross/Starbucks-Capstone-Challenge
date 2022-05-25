@@ -1,4 +1,4 @@
-<img src=https://media.gettyimages.com/vectors/supporters-and-opponents-the-two-groups-held-placards-against-each-vector-id1312727567? width="600" height="400"/>
+<img src=https://parade.com/wp-content/uploads/2021/06/healthy-starbucks-drinks.jpg width="600" height="400"/>
 
 ## Should I send my discount offers to every customer?
 
