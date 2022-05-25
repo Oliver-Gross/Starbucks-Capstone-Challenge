@@ -1,4 +1,4 @@
-<img src=[https://user-images.githubusercontent.com/96918132/150175572-2937f3d3-8ec7-41dd-ba50-8ec1edb71da3.png](https://media.gettyimages.com/vectors/supporters-and-opponents-the-two-groups-held-placards-against-each-vector-id1312727567?s=2048x2048) width="600" height="400"/>
+<img src=https://media.gettyimages.com/vectors/supporters-and-opponents-the-two-groups-held-placards-against-each-vector-id1312727567?s=2048x2048 width="600" height="400"/>
 
 ## Should I send my discount offers to every customer?
 
