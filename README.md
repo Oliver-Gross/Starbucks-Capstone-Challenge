@@ -2,7 +2,15 @@
 ## Project for Udacity Data Scientist Nanodegree
 ![](https://upload.wikimedia.org/wikipedia/commons/3/3b/Udacity_logo.png)
 
-## Installations
+### Table of Contents
+
+1. [Installation](#installation)
+2. [Project Motivation](#motivation)
+3. [File Descriptions](#files)
+4. [Results](#results)
+5. [Licensing, Authors, and Acknowledgements](#licensing)
+
+## Installations <a name="installation"></a>
 ```
 import pandas as pd
 import numpy as np
@@ -26,7 +34,8 @@ from sklearn.metrics import confusion_matrix
 [Matplotlib](https://en.wikipedia.org/wiki/Matplotlib) is a plotting library used to visualize our results. <br>
 [JSON](https://docs.python.org/3/library/json.html) exposes an API familiar to users of the standard library marshal and pickle modules.
 [SKlearn](https://scikit-learn.org/stable/) is used for predictive data analysis. <br>
-## Motivation
+## Project Motivation <a name="motivation"></a>
+For this project
 As a first project for my Data Science Nanodegree at [Udacity](https://www.udacity.com/school-of-data-science) I am asked to choose a data set and analyze, model and visualize it. For my project I chose a [Heart Failure Prediction Dataset](https://www.kaggle.com/fedesoriano/heart-failure-prediction). <br>
 It contains mostly medical data which can be used for a early detection of a heart disease.
 
