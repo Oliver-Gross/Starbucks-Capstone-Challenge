@@ -1,6 +1,6 @@
 <img src=https://parade.com/wp-content/uploads/2021/06/healthy-starbucks-drinks.jpg width="600" height="400"/>
 
-## Should I send my discount offers to every customer?
+## Should I send my discount offers really to each and every customer?
 
 In the eyes of a marketing department the answer will most likely be yes to pull in more customers. <br>
 However if you want to send offers only to customers who wouldn't buy anything without it and not 
@@ -79,7 +79,13 @@ The column 'Became_Member_On' with the datetime-format has been changed into 'Me
 The dataset will then be combined with the transcript dataset and look like this:<br>
 
 ![grafik](https://user-images.githubusercontent.com/96918132/170284379-f36ae1a2-a24c-4ac4-9f0d-6f9d31207301.png)
-
-
+<br>
+With the [AdaBoostClassifier](https://scikit-learn.org/0.15/modules/generated/sklearn.ensemble.AdaBoostClassifier.html#sklearn.ensemble.AdaBoostClassifier),which had the best accuracy out of 4 other classifier, 
+I am going to which offer should be send to a certain user.
+As an example I predicted the offers for a male person who is 50 years old, who earns 112000$ per year and has been a member for 5 years.
+As a result I get:<br>
+<br>
+![grafik](https://user-images.githubusercontent.com/96918132/170725916-9d17b7fd-fbfd-4851-95e3-09bcbd4a579d.png)
+<br>
 
 
