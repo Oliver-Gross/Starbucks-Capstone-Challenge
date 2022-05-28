@@ -6,9 +6,9 @@
 
 1. [Installation](#installation)
 2. [Project Motivation](#motivation)
-3. [File Descriptions](#files)
+3. [Description](#description)
 4. [Results](#results)
-5. [Licensing, Authors, and Acknowledgements](#licensing)
+5. [Authors and Acknowledgements](#licensing)
 
 ## Installations <a name="installation"></a>
 ```
@@ -32,19 +32,20 @@ from sklearn.metrics import confusion_matrix
 ```
 [Panda](https://en.wikipedia.org/wiki/Pandas_(software)) is a Python package providing fast, flexible, and expressive data structures designed to make working with “relational” or “labeled” data both easy and intuitive. <br>
 [Matplotlib](https://en.wikipedia.org/wiki/Matplotlib) is a plotting library used to visualize our results. <br>
-[JSON](https://docs.python.org/3/library/json.html) exposes an API familiar to users of the standard library marshal and pickle modules.
-[SKlearn](https://scikit-learn.org/stable/) is used for predictive data analysis. <br>
-## Project Motivation <a name="motivation"></a>
-For this project
-As a first project for my Data Science Nanodegree at [Udacity](https://www.udacity.com/school-of-data-science) I am asked to choose a data set and analyze, model and visualize it. For my project I chose a [Heart Failure Prediction Dataset](https://www.kaggle.com/fedesoriano/heart-failure-prediction). <br>
-It contains mostly medical data which can be used for a early detection of a heart disease.
+[JSON](https://docs.python.org/3/library/json.html) exposes an API familiar to users of the standard library marshal and pickle modules.<br>
+[scikit-learn](https://scikit-learn.org/stable/) is used for predictive data analysis. <br>
 
-## Description
+## Project Motivation <a name="motivation"></a>
+For this project the challenge has been to analyze a dataset provided by Starbucks. It can
+be analyzed any way you see fit. For example, you could build a machine learning model that predicts how much someone will spend based on demographics and offer type. Or you could build a model that predicts whether or not someone will respond to an offer.
+I chose the later one and want to predict which user will respond/complete which offer.
+
+## Description <a name="description"></a>
 The used model can give you a predicition for a member/ customer whether the person will complete an offer or not.
 After defining a member the model can give a list of predefined offers the member will most likely complete.
 
 ## Authors, Acknowledgements
 
-Author: Oliver Groß
+Author: Oliver Groß <a name="licensing"></a>
 
 Credits to the Udacity-Team for the ID-Encoder and other code from their teachings.
