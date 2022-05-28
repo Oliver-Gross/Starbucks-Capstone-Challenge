@@ -49,3 +49,4 @@ After defining a member the model can give a list of predefined offers the membe
 Author: Oliver Groß <a name="licensing"></a>
 
 Credits to the Udacity-Team for the ID-Encoder and other code from their teachings.
+And Credits to Starbucks for providing the data.
