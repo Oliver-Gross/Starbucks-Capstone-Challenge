@@ -52,6 +52,8 @@ You'll be given transactional data showing user purchases made on the app includ
     value - (dict of strings) - either an offer id or transaction amount depending on the record
 
 The dataset 'portfolio.json' contains the 
+### Metrics <a name="metrics"></a>
+https://www.contentglory.com/blog/kpis-und-metrics-wie-sie-aus-daten-wissen-machen
 
 ### Cleaning and Rearranging the datasets
 
