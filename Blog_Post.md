@@ -80,7 +80,7 @@ The dataset will then be combined with the transcript dataset and look like this
 
 ![grafik](https://user-images.githubusercontent.com/96918132/170284379-f36ae1a2-a24c-4ac4-9f0d-6f9d31207301.png)
 <br>
-With the [AdaBoostClassifier](https://scikit-learn.org/0.15/modules/generated/sklearn.ensemble.AdaBoostClassifier.html#sklearn.ensemble.AdaBoostClassifier),which had the best accuracy out of 4 other classifier, 
+
 I am going to which offer should be send to a certain user.
 As an example I predicted the offers for a male person who is 50 years old, who earns 112000$ per year and has been a member for 5 years.
 As a result I get:<br>
