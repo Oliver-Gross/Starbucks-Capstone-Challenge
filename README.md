@@ -1,14 +1,12 @@
 # Starbucks-Capstone-Challenge
 ## Project for Udacity Data Scientist Nanodegree
-![](https://upload.wikimedia.org/wikipedia/commons/3/3b/Udacity_logo.png)
 
 ### Table of Contents
 
 1. [Installation](#installation)
 2. [Project Motivation](#motivation)
 3. [Description](#description)
-4. [Results](#results)
-5. [Authors and Acknowledgements](#licensing)
+4. [Authors and Acknowledgements](#licensing)
 
 ## Installations <a name="installation"></a>
 ```
