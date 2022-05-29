@@ -5,7 +5,7 @@
 1. [Introduction](#intro)
 2. [Project Motivation](#motivation)
 3. [Metrics](#metrics)
-4. [EDA](#eda)
+4. [Exploratory Data Analysis](#eda)
 5. [Hyperparamter tuning](#hyper)
 6. [Results](#results)
 7. [Conclusions/Reflection](#conclusion)
@@ -17,8 +17,8 @@
 Like the quote states, efficiency is mandatory for a company. So for this challenge I want to look into the dataset from Starbucks, which <br>
 contains simulated data that mimics customer behavior on the Starbucks rewards mobile app.<br>
 Here they send their offers to every user, which also includes user who complete an offer without even seeing it first. <br>
-It would be inefficient to send those users offers and therefore I want to create a prediction model which offer should be <br>
-send to a certain user.<br>
+It would be inefficient to send those users offers and therefore I want to design a prediction model which gives out a list of <br>
+offers a certain user will most likely complete.<br>
 
 ### Introduction of the dataset:
 Once every few days, Starbucks sends out an offer to users of the mobile app. An offer can be merely an advertisement for a drink or an actual offer such as a discount or BOGO (buy one get one free). Some users might not receive any offer during certain weeks.
@@ -51,9 +51,12 @@ You'll be given transactional data showing user purchases made on the app includ
     time (int) - time in hours since start of test. The data begins at time t=0
     value - (dict of strings) - either an offer id or transaction amount depending on the record
 
-The dataset 'portfolio.json' contains the 
+
 ### Metrics <a name="metrics"></a>
-https://www.contentglory.com/blog/kpis-und-metrics-wie-sie-aus-daten-wissen-machen
+
+To grade the result we will look at the accuracy, precision and the F-score.
+
+### Exploratory Data Analysis <a name="eda"></a>
 
 ### Cleaning and Rearranging the datasets
 
