@@ -67,7 +67,9 @@ With the df.head() function we get a impression of the formats.
 <br>
 ![grafik](https://user-images.githubusercontent.com/96918132/170886195-f3a41b32-ff29-4bff-819b-7304a1893ca7.png)
 <br>
+
 With df.info() we get the data types of the columns and also a glimpso amount of missing data.
+
 <br>
 ![grafik](https://user-images.githubusercontent.com/96918132/170886323-bab57d2f-6582-43fc-a7c6-f45f44a8c309.png)
 <br>
