@@ -63,11 +63,9 @@ With the df.head() function we get a impression of the formats.
 ![grafik](https://user-images.githubusercontent.com/96918132/170886071-d4ced702-f6ea-43bb-8167-7da630e4ff03.png)
 <br>
 <br>
-![grafik](https://user-images.githubusercontent.com/96918132/170282117-5988abfa-261c-4b8b-b497-5144f55c9e94.png)
-
+![grafik](https://user-images.githubusercontent.com/96918132/170886179-1687d3c3-0131-4311-8f43-550d0e0c9c5a.png)
 <br>
-![grafik](https://user-images.githubusercontent.com/96918132/170885942-86ed102b-7029-47ac-91a2-d901a26ddaf7.png)
-<br>
+![grafik](https://user-images.githubusercontent.com/96918132/170886195-f3a41b32-ff29-4bff-819b-7304a1893ca7.png)
 
 
 
