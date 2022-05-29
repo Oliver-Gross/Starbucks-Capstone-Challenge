@@ -62,7 +62,8 @@ To get a better understanding of our data sets we will use a few pandas function
 With the df.head() function we get a impression of the formats.
 #### transcript.json
 <br>
-![grafik](https://user-images.githubusercontent.com/96918132/170275047-d5368a67-da99-40d5-abbf-8fd2ea656cc2.png)
+![grafik](https://user-images.githubusercontent.com/96918132/170886071-d4ced702-f6ea-43bb-8167-7da630e4ff03.png)
+
 
 #### profile.json
 <br>
