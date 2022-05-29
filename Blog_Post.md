@@ -58,13 +58,28 @@ To grade the result we will look at the accuracy, precision and the F-score.
 
 ### Exploratory Data Analysis <a name="eda"></a>
 
-### Cleaning and Rearranging the datasets
-
+To get a better understanding of our data sets we will use a few pandas functions.<br>
+With the df.head() function we get a impression of the formats.
 #### transcript.json
-
-The raw dataset is shown in the following image:<br>
 <br>
 ![grafik](https://user-images.githubusercontent.com/96918132/170275047-d5368a67-da99-40d5-abbf-8fd2ea656cc2.png)
+
+#### profile.json
+<br>
+![grafik](https://user-images.githubusercontent.com/96918132/170282117-5988abfa-261c-4b8b-b497-5144f55c9e94.png)
+
+#### portfolio.json
+<br>
+![grafik](https://user-images.githubusercontent.com/96918132/170885942-86ed102b-7029-47ac-91a2-d901a26ddaf7.png)
+
+
+
+
+
+
+
+
+### Cleaning and Rearranging the datasets
 
 As a first step I am encoding the used id's of the users and the offers.<br>
 Next I am creating a binary matrix out of the column 'event' and combine the rows with the same offer id and user id.
@@ -81,8 +96,6 @@ In the end the dataset is conctruceted like this:<br>
 #### profile.json
 
 The raw dataset is shown in the following image:<br>
-<br>
-![grafik](https://user-images.githubusercontent.com/96918132/170282117-5988abfa-261c-4b8b-b497-5144f55c9e94.png)
 
 It is noticable that some rows contain no valid data (gender = 'None', age = 118, income = NaN).
 So I am dropping them and also encode the user id.
