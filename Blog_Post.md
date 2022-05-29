@@ -61,9 +61,11 @@ To grade the result we will look at the accuracy, precision and the F-score.
 To get a better understanding of our data sets we will use a few pandas functions.<br>
 With the df.head() function we get a impression of the formats.
 #### transcript.json
+Text
 <br>
 ![grafik](https://user-images.githubusercontent.com/96918132/170886071-d4ced702-f6ea-43bb-8167-7da630e4ff03.png)
-
+<br>
+Text
 
 #### profile.json
 <br>
