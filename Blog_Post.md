@@ -75,7 +75,7 @@ With df.info() we get the data types of the columns and also a glimpso amount of
 ![grafik](https://user-images.githubusercontent.com/96918132/170886323-bab57d2f-6582-43fc-a7c6-f45f44a8c309.png)
 <br>
 <br>
-![grafik](https://user-images.githubusercontent.com/96918132/170886334-b293b3e5-585a-4e13-a787-530beef3d455.png)
+![grafik](https://user-images.githubusercontent.com/96918132/170886384-588fc6fa-9b7f-4c49-9266-f6cd31c1789a.png)
 
 
 
