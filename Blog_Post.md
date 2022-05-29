@@ -14,12 +14,11 @@
 ## Introduction <a name="intro"></a>
 ### There can be economy only where there is efficiency <sub>~ Benjamin Disraeli</sub>
 
-In the eyes of a marketing department the answer will most likely be yes to pull in more customers. <br>
-However if you want to send offers only to customers who wouldn't buy anything without it and not 
-to those who buy anyway, then here is an approach to predict whether a customer should get an offer, or not.
-
-As part of my project at [Udacity](https://www.udacity.com/) I am working witha predefined dataset from Starbucks, which 
-contains simulated data that mimics customer behavior on the Starbucks rewards mobile app.
+Like the quote states, efficiency is mandatory for a company. So for this challenge I want to look into the dataset from Starbucks, which <br>
+contains simulated data that mimics customer behavior on the Starbucks rewards mobile app.<br>
+Here they send their offers to every user, which also includes user who complete an offer without even seeing it first. <br>
+It would be inefficient to send those users offers and therefore I want to create a prediction model which offer should be <br>
+send to a certain user.<br>
 
 ### Introduction of the dataset:
 Once every few days, Starbucks sends out an offer to users of the mobile app. An offer can be merely an advertisement for a drink or an actual offer such as a discount or BOGO (buy one get one free). Some users might not receive any offer during certain weeks.
