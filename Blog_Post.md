@@ -1,14 +1,5 @@
 <img src=https://parade.com/wp-content/uploads/2021/06/healthy-starbucks-drinks.jpg width="600" height="400"/>
 
-## Should I send my discount offers really to each and every customer?
-
-In the eyes of a marketing department the answer will most likely be yes to pull in more customers. <br>
-However if you want to send offers only to customers who wouldn't buy anything without it and not 
-to those who buy anyway, then here is an approach to predict whether a customer should get an offer, or not.
-
-As part of my project at [Udacity](https://www.udacity.com/) I am working witha predefined dataset from Starbucks, which 
-contains simulated data that mimics customer behavior on the Starbucks rewards mobile app.
-
 ### Table of Contents
 
 1. [Introduction](#intro)
@@ -19,6 +10,16 @@ contains simulated data that mimics customer behavior on the Starbucks rewards m
 6. [Results](#results)
 7. [Conclusions/Reflection](#conclusion)
 8. [Improvements](#improvements)
+
+## Introduction <a name="intro"></a>
+### There can be economy only where there is efficiency <sub>~ Benjamin Disraeli</sub>
+
+In the eyes of a marketing department the answer will most likely be yes to pull in more customers. <br>
+However if you want to send offers only to customers who wouldn't buy anything without it and not 
+to those who buy anyway, then here is an approach to predict whether a customer should get an offer, or not.
+
+As part of my project at [Udacity](https://www.udacity.com/) I am working witha predefined dataset from Starbucks, which 
+contains simulated data that mimics customer behavior on the Starbucks rewards mobile app.
 
 ### Introduction of the dataset:
 Once every few days, Starbucks sends out an offer to users of the mobile app. An offer can be merely an advertisement for a drink or an actual offer such as a discount or BOGO (buy one get one free). Some users might not receive any offer during certain weeks.
