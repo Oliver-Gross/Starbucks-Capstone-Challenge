@@ -71,7 +71,7 @@ With the df.head() function we get a impression of the formats.
 #### portfolio.json
 <br>
 ![grafik](https://user-images.githubusercontent.com/96918132/170885942-86ed102b-7029-47ac-91a2-d901a26ddaf7.png)
-
+<br>
 
 
 
