@@ -111,7 +111,7 @@ For the upcoming prediction we also have to change all the columns into numeric 
 I changed 'female' into '1', 'male' into '2' and 'other' into '3'.
 The column 'Became_Member_On' with the datetime-format has been changed into 'Member_for_x_years' with a float-format.
 The dataset will then be combined with the transcript dataset and look like this:<br>
-
+<br>
 ![grafik](https://user-images.githubusercontent.com/96918132/170284379-f36ae1a2-a24c-4ac4-9f0d-6f9d31207301.png)
 <br>
 
