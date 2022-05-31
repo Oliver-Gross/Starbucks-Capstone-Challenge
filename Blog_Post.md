@@ -120,7 +120,8 @@ With this we can also take a look at the ditribution of the offers.<br>
 ![grafik](https://user-images.githubusercontent.com/96918132/171128709-c0dd7d90-475b-45f7-936a-39c1743b6b92.png)
 <br>
 
-Offer 3 and 8 are just informations and can't be completed so we will drop them later on. <br>
+Something I didn't notice before is the failing-rate of Offer 3 and 8. <br>
+Those two offers are of the type informational ann therefore can't be completed. So we will drop them. <br>
 Offer 1,2,5 and 10 are more likely to be not completed.<br>
 
 ### Hyperparameter tuning <a name="hyper"></a>
