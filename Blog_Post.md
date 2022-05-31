@@ -76,7 +76,12 @@ With df.info() we get the data types of the columns and also a glimpso amount of
 <br>
 <br>
 ![grafik](https://user-images.githubusercontent.com/96918132/170886384-588fc6fa-9b7f-4c49-9266-f6cd31c1789a.png)
-
+<br>
+It shows us that 'transcript' has no missing data and that there is an equal amount of missing data in profile['age'] and profile['income'].
+If we take a close look with: <br>
+![grafik](https://user-images.githubusercontent.com/96918132/171104934-f8410492-8671-4cfc-9a7b-96a16b8791d5.png)
+<br>
+we will see that all rows with missing data look the same and therefore we can drop it.
 
 
 
