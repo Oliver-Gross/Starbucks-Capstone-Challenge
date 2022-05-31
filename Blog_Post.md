@@ -6,10 +6,11 @@
 2. [Project Motivation](#motivation)
 3. [Metrics](#metrics)
 4. [Exploratory Data Analysis](#eda)
-5. [Hyperparamter tuning](#hyper)
-6. [Results](#results)
-7. [Conclusions/Reflection](#conclusion)
-8. [Improvements](#improvements)
+5. [Cleaning and Rearranging](#clean)
+6. [Hyperparamter tuning](#hyper)
+7. [Results](#results)
+8. [Conclusions/Reflection](#conclusion)
+9. [Improvements](#improvements)
 
 ## Introduction <a name="intro"></a>
 ### There can be economy only where there is efficiency <sub>~ Benjamin Disraeli</sub>
@@ -82,13 +83,13 @@ If we take a close look with: <br>
 ![grafik](https://user-images.githubusercontent.com/96918132/171104934-f8410492-8671-4cfc-9a7b-96a16b8791d5.png)
 <br>
 we will see that all rows with missing data look the same and therefore we can drop it.
+The distribution of those two columns now looks like this:<br>
+![grafik](https://user-images.githubusercontent.com/96918132/171105105-d72f6b75-b2ed-44c3-ad72-77d542922285.png)
+<br>
 
+### Cleaning and Rearranging <a name="clean"></a>
 
-
-
-
-### Cleaning and Rearranging the datasets
-
+For the prediction model we have to clean and rearrange the datasets.
 As a first step I am encoding the used id's of the users and the offers.<br>
 Next I am creating a binary matrix out of the column 'event' and combine the rows with the same offer id and user id.
 The dataset will look like this then: <br>
