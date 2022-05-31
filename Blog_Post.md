@@ -114,10 +114,12 @@ The dataset will then be combined with the transcript dataset and look like this
 <br>
 ![grafik](https://user-images.githubusercontent.com/96918132/170284379-f36ae1a2-a24c-4ac4-9f0d-6f9d31207301.png)
 <br>
-With this we can also take a look at the ditribution of the offers.
+
+With this we can also take a look at the ditribution of the offers.<br>
 <br>
 ![grafik](https://user-images.githubusercontent.com/96918132/171128709-c0dd7d90-475b-45f7-936a-39c1743b6b92.png)
 <br>
+
 Offer 3 and 8 are just informations and can't be completed so we will drop them later on. <br>
 Offer 1,2,5 and 10 are more likely to be not completed.<br>
 
