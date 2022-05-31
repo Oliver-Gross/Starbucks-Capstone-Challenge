@@ -140,3 +140,5 @@ To optimize for more than one hyper-parameter I am using GridSearchCV for the cr
 
 <br>
 So even with tuned parameters the RandomForestClassifier has a better accuracy.
+
+### Results <a name="results"></a>
