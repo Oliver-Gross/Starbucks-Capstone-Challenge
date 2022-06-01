@@ -137,8 +137,23 @@ However the paramter have been chosen randomly so we have to tune them. <br>
 To optimize for more than one hyper-parameter I am using GridSearchCV for the cross validation.<br>
 <br>
 ![grafik](https://user-images.githubusercontent.com/96918132/171129930-65412803-ae49-4c0a-b351-0349065a2799.png)
-
 <br>
 So even with tuned parameters the RandomForestClassifier has a better accuracy.
 
 ### Results <a name="results"></a>
+
+In the end I will compare the accuracy, precision, F1-score and return-score if the RandomTreeClassifier with <br>
+the DecisionTreeClassifier and the AdaBoostClassifier to evaluate the results.<br>
+
+![grafik](https://user-images.githubusercontent.com/96918132/171391541-1e711dfa-f893-487e-8ac0-76d875956de8.png)
+
+
+
+
+
+
+
+
+
+
+
