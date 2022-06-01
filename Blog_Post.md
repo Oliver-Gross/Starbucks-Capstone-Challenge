@@ -152,7 +152,9 @@ the DecisionTreeClassifier and additionally the AdaBoostClassifier to evaluate t
 ![grafik](https://user-images.githubusercontent.com/96918132/171391541-1e711dfa-f893-487e-8ac0-76d875956de8.png)
 
 <br>
-In comparison the model of the RandomTreeClassifier gets the best results with 
+In comparison the model of the RandomTreeClassifier gets the best results. 70% of the predicted values correspond to the true values.<br>
+However the difference between the models isn't that big, which could indicate that the features don't
+provide enough information and therefore have a weak correlation.
 
 
 
