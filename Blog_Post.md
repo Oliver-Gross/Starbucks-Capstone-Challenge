@@ -145,8 +145,10 @@ So even with tuned parameters the RandomForestClassifier has a better accuracy.
 In the end I will compare the accuracy, precision, F1-score and return-score if the RandomTreeClassifier with <br>
 the DecisionTreeClassifier and the AdaBoostClassifier to evaluate the results.<br>
 The accuracy shows us how many of the predicted values correspond to the true values (the higher the better). <br>
-
+The precision is the ratio of the number of true positives to the sum of the number of true positives and number of false positives (The best value is 1 and the worst value is 0.)<br>
 The F1-score can be interpreted as a weighted harmonic mean of the precision and recall (best value at 1 and its worst score at 0). <br>
+The rcall-score is the ratio of the number of true positives to the sum of the number of true positives and number of false negatives (The best value is 1 and the worst value is 0.)<br>
+
 ![grafik](https://user-images.githubusercontent.com/96918132/171391541-1e711dfa-f893-487e-8ac0-76d875956de8.png)
 
 <br>
