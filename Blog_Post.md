@@ -11,7 +11,7 @@
 7. [Results](#results)
 8. [Conclusions/Reflection](#conclusion)
 
-## Introduction <a name="intro"></a>
+## 1. Introduction <a name="intro"></a>
 ### There can be economy only where there is efficiency <sub>~ Benjamin Disraeli</sub>
 
 Like the quote states, efficiency is mandatory for a company. So for this challenge I want to look into the dataset from Starbucks, which <br>
@@ -52,11 +52,11 @@ You'll be given transactional data showing user purchases made on the app includ
     value - (dict of strings) - either an offer id or transaction amount depending on the record
 
 
-### Metrics <a name="metrics"></a>
+### 3. Metrics <a name="metrics"></a>
 
 To grade the result we will look at the accuracy, precision and the F-score.
 
-### Exploratory Data Analysis <a name="eda"></a>
+### 4. Exploratory Data Analysis <a name="eda"></a>
 
 To get a better understanding of our data sets we will use a few pandas functions.<br>
 With the df.head() function we get a impression of the formats.
@@ -86,7 +86,7 @@ The distribution of those two columns now looks like this:<br>
 ![grafik](https://user-images.githubusercontent.com/96918132/171105105-d72f6b75-b2ed-44c3-ad72-77d542922285.png)
 <br>
 
-### Cleaning and Rearranging <a name="clean"></a>
+### 5. Cleaning and Rearranging <a name="clean"></a>
 
 For the prediction model we have to clean and rearrange the datasets. <br>
 As a first step I am encoding the id's of the users and the offers using a function provided by <br>
@@ -125,7 +125,7 @@ Something I didn't notice before is the failing-rate of Offer 3 and 8. <br>
 Those two offers are of the type informational ann therefore can't be completed. So we will drop them. <br>
 Offer 1,2,5 and 10 are more likely to be not completed.<br>
 
-### Hyperparameter tuning <a name="hyper"></a>
+### 6. Hyperparameter tuning <a name="hyper"></a>
 
 For the prediction model I want to compare the DecisionTreeClassifier and the RandomForestClassifier.<br>
 With random parameters I get the following results: <br>
@@ -141,7 +141,7 @@ To optimize for more than one hyper-parameter I am using GridSearchCV for the cr
 <br>
 So even with tuned parameters the RandomForestClassifier has a better accuracy.
 
-### Results <a name="results"></a>
+### 7. Results <a name="results"></a>
 
 In the end I will compare the accuracy, precision, F1-score and return-score if the RandomTreeClassifier with <br>
 the DecisionTreeClassifier and additionally the AdaBoostClassifier to evaluate the results.<br>
@@ -158,7 +158,7 @@ However the difference between the models isn't that big, which could indicate t
 provide enough information and therefore have a weak correlation.
 
 
-### Conclusion/Reflection <a name="conclusion"></a>
+### 8. Conclusion/Reflection <a name="conclusion"></a>
 
 We started the project with one dataset that contained the interaction of users with offers and with <br>
 one dataset that contained the user data. We cleared the datasets of unnecessary data and split the dataset <br>
