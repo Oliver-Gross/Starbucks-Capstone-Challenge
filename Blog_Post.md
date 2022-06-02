@@ -159,7 +159,21 @@ provide enough information and therefore have a weak correlation.
 
 ### Conclusion/Reflection <a name="conclusion"></a>
 
-We started with a dataset that contained
+We started the project with one dataset that contained the interaction of users with offers and with <br>
+one dataset that contained the user data. We cleared the datasets of unnecessary data and split the dataset <br>
+into a test and a training part. <br>
+With that we fitted our prediction model and achieved an accuracy of 70 %. To get a better feeling of the result <br>
+we have compared it with two other classifiers and got a simliar result.
+
+
+
+
+
+An accuracy of about 70 % doesn't sound much to me, however since this prediction model is about sending out offers,
+which doesnt have an negative effect, it should be enough<br>
+I would stop the improvement of the model at this point. In a business case I would state the current state and
+wether the accuracy can be further increased
+
 
 
 
