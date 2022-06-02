@@ -10,7 +10,6 @@
 6. [Hyperparamter tuning](#hyper)
 7. [Results](#results)
 8. [Conclusions/Reflection](#conclusion)
-9. [Improvements](#improvements)
 
 ## Introduction <a name="intro"></a>
 ### There can be economy only where there is efficiency <sub>~ Benjamin Disraeli</sub>
@@ -112,11 +111,13 @@ I changed 'female' into '1', 'male' into '2' and 'other' into '3'.
 The column 'Became_Member_On' with the datetime-format has been changed into 'Member_for_x_years' with a float-format.
 The dataset will then be combined with the transcript dataset and look like this:<br>
 <br>
+
 ![grafik](https://user-images.githubusercontent.com/96918132/170284379-f36ae1a2-a24c-4ac4-9f0d-6f9d31207301.png)
 <br>
 <br>
 With this we can also take a look at the ditribution of the offers.<br>
 <br>
+
 ![grafik](https://user-images.githubusercontent.com/96918132/171128709-c0dd7d90-475b-45f7-936a-39c1743b6b92.png)
 <br>
 
@@ -130,13 +131,13 @@ For the prediction model I want to compare the DecisionTreeClassifier and the Ra
 With random parameters I get the following results: <br>
 <br>
 ![grafik](https://user-images.githubusercontent.com/96918132/171129746-025b918d-35ab-4915-9e2b-75da8bd91129.png)
-
 <br>
 The accuracy of the RandomForestClassifier is better than the accuracy of the DecisionTreeClassifier. <br>
 However the paramter have been chosen randomly so we have to tune them. <br>
 To optimize for more than one hyper-parameter I am using GridSearchCV for the cross validation.<br>
 <br>
-![grafik](https://user-images.githubusercontent.com/96918132/171129930-65412803-ae49-4c0a-b351-0349065a2799.png)
+
+![grafik](https://user-images.githubusercontent.com/96918132/171596455-2f17b66e-acdd-4a4d-b6ec-46e3b4b5c106.png)
 <br>
 So even with tuned parameters the RandomForestClassifier has a better accuracy.
 
