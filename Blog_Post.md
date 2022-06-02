@@ -163,18 +163,12 @@ We started the project with one dataset that contained the interaction of users 
 one dataset that contained the user data. We cleared the datasets of unnecessary data and split the dataset <br>
 into a test and a training part. <br>
 With that we fitted our prediction model and achieved an accuracy of 70 %. To get a better feeling of the result <br>
-we have compared it with two other classifiers and got a simliar result.
-
-
-
-
-
-An accuracy of about 70 % doesn't sound much to me, however since this prediction model is about sending out offers,
-which doesnt have an negative effect, it should be enough<br>
-I would stop the improvement of the model at this point. In a business case I would state the current state and
-wether the accuracy can be further increased
-
-
+we have compared it with two other classifiers and got a simliar result.<br>
+<br>
+I stop the improvement of the model at this point. I don't know if a higher accuracy is achievable, however with more <br>
+time I would try other classifier (like naive bayes, gaussian processes, ...), increase the range of the hyperparameter tuning <br>
+look for different approaches.
+In a business case I would have to discuss wether more time is still profitable.
 
 
 
