@@ -54,7 +54,7 @@ You'll be given transactional data showing user purchases made on the app includ
 
 ### 3. Metrics <a name="metrics"></a>
 
-To grade the result we will look at the accuracy, precision and the F-score.
+To grade the results we will look at the accuracy, precision and the F-score.
 
 ### 4. Exploratory Data Analysis <a name="eda"></a>
 
