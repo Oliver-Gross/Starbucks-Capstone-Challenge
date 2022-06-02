@@ -157,6 +157,12 @@ In comparison the model of the RandomTreeClassifier gets the best results. 70% o
 However the difference between the models isn't that big, which could indicate that the features don't
 provide enough information and therefore have a weak correlation.
 
+#### Example
+
+Here is an example of user and the offers she/he will most likely complete:
+
+![grafik](https://user-images.githubusercontent.com/96918132/171599178-c8edd9b3-8019-4d73-b33e-11f300b6bf24.png)
+<br>
 
 ### 8. Conclusion/Reflection <a name="conclusion"></a>
 
