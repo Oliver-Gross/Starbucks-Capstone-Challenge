@@ -18,6 +18,7 @@ contains simulated data that mimics customer behavior on the Starbucks rewards m
 Here they send their offers to every user, which also includes user who complete an offer without even seeing it first. <br>
 It would be inefficient to send those users offers and therefore I want to design a prediction model which gives out a list of <br>
 offers a certain user will most likely complete.<br>
+[Link to the Repository](https://github.com/Oliver-Gross/Starbucks-Capstone-Challenge)
 
 ### Introduction of the dataset:
 Once every few days, Starbucks sends out an offer to users of the mobile app. An offer can be merely an advertisement for a drink or an actual offer such as a discount or BOGO (buy one get one free). Some users might not receive any offer during certain weeks.
